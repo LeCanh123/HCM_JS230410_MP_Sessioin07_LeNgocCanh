@@ -1,0 +1,118 @@
+.container{
+    width: 50%;
+    margin: auto;
+    background-color: aliceblue;
+}
+.head-item{
+    position: relative;
+    display: flex;
+    background-color: aqua;
+}
+.head-item1{
+width:30%;
+}
+.head-item1-1{
+    display: flex;
+    width: 100%;
+}
+.head-item1-1-1{
+    width: 50%;
+}
+.head-item1-1-2{
+    width: 50%;
+}
+.head-item2{
+    position: absolute;
+    top:20%;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+font-weight: bold;
+}
+.body-item{
+    display: flex;
+    border: 0.25px solid greenyellow;
+}
+.body-item1{
+    display: flex;
+    width:10%;
+    line-height: 40px;
+}
+.body-item1-1{
+    height:40px;
+    width:50%;
+    text-align: center;
+border-style: hidden;
+
+}
+.body-item1-1:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.body-item1-2{
+    height:40px;
+    width:50%;
+    text-align: center;
+}
+.body-item2{
+    width:70%;
+    text-align: center;
+    line-height: 40px;
+}
+.body-item3{
+    display: flex;
+    width:20%;
+}
+.body-item3-1{   
+    width:30%;
+    text-align: center;
+    background-color: bisque;
+    line-height: 40px;
+border-style: hidden;
+
+
+}
+.body-item3-1:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.body-item3-2{   
+    width:40%;
+    text-align: center;
+    line-height: 40px;
+}
+.foot-item{
+    display: flex; 
+    background-color: aqua;
+}
+.foot-item-1{
+    width:80%; 
+    line-height: 40px;
+    text-align: center;
+}
+.foot-item-1-1{
+width:90%;
+line-height: 25px;
+border-radius: 10px;
+border-style: hidden;
+
+}
+.foot-item-2{
+    width:20%; 
+    line-height: 40px;
+    text-align: center;
+
+}
+.foot-item-2-2{
+line-height: 25px;
+border-radius: 5px;
+border-style: hidden;
+
+
+}
+.foot-item-2-2:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
