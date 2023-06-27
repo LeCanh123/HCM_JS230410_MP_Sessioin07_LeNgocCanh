@@ -39,7 +39,7 @@ const saveTask=()=>{
           <div className="col-5 bg-light pt-2 border border-success">
             <div className="row">
             <h3 className='col-md-9 bg-dangder fw-bold'>Task Tracker</h3>
-            <div className='col-md-2'><button className='rounded-1 bg-success' onClick={()=>setToggle(!toggle)}>Add</button></div>
+            <div className='col-md-2'><button className='rounded-1 bg-success' onClick={()=>setToggle(!toggle)}>{toggle?"Close":"Add"}</button></div>
             </div>
             {toggle?<>
                       <div className="row">
